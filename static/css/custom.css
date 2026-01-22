@@ -1,0 +1,63 @@
+/**
+ * Custom CSS for Cloud Mastery Journey Blog
+ */
+
+/* Cloud-themed color accents */
+:root {
+  --cloud-primary: #232f3e;
+  --cloud-secondary: #3498db;
+  --cloud-accent: #e74c3c;
+  --cloud-success: #2ecc71;
+  --cloud-warning: #f39c12;
+}
+
+/* Main content styling */
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Code blocks with cloud theme */
+pre {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1.5rem;
+  overflow-x: auto;
+  border-left: 4px solid var(--cloud-secondary);
+}
+
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  background-color: rgba(52, 152, 219, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* Certification badges */
+.cert-badge {
+  display: inline-block;
+  background-color: var(--cloud-secondary);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin: 0.2rem;
+  font-weight: bold;
+}
+
+/* Lab setup highlighting */
+.lab-highlight {
+  background-color: rgba(231, 76, 60, 0.1);
+  border-left: 4px solid var(--cloud-accent);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+}

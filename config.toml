@@ -1,0 +1,87 @@
+baseURL = "https://boumanne.fr/"
+languageCode = "en-us"
+title = "Cloud Mastery Journey"
+theme = "hugo-blog-awesome"
+
+# Enable emojis globally
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+# Enable robots.txt
+enableRobotsTXT = true
+
+# Code highlighting
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+# Permalinks
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+# Main menu
+[[menu.main]]
+  pageRef = "/"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  pageRef = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  pageRef = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[[menu.main]]
+  pageRef = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 40
+
+# Theme parameters
+[params]
+  sitename = "Cloud Mastery Journey"
+  defaultColor = "auto" # set color mode: dark, light, auto
+  description = "Documenting my cloud mastery journey - AWS, Kubernetes, and DevOps"
+  mainSections = ["posts"]
+  toc = false # disable table of contents by default
+  tocOpen = false
+  goToTop = true # enable 'go to top' button
+  dateFormat = "2 Jan 2006"
+  rssFeedDescription = "summary"
+
+# Author information
+[params.author]
+  # avatar = "avatar.jpg" # Add your avatar to assets/ folder if you want
+  intro = "Cloud Mastery Journey"
+  name = "Aurélien BOUMANNE"
+  description = "Documenting my journey through AWS certifications, Kubernetes, and infrastructure automation."
+
+# Social media links
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Douda"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/aurelien-boumanne/"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:aurelien@boumanne.fr"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
