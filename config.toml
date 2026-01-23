@@ -1,6 +1,6 @@
 baseURL = "https://boumanne.fr/"
 languageCode = "en-us"
-title = "Cloud Mastery Journey"
+title = "Aurélien's blog"
 theme = "hugo-blog-awesome"
 
 # Enable emojis globally
@@ -52,9 +52,9 @@ enableRobotsTXT = true
 
 # Theme parameters
 [params]
-  sitename = "Cloud Mastery Journey"
+  sitename = "Aurélien's blog"
   defaultColor = "auto" # set color mode: dark, light, auto
-  description = "Documenting my cloud mastery journey - AWS, Kubernetes, and DevOps"
+  description = "Documenting my Aurélien's blog - AWS, Kubernetes, and DevOps"
   mainSections = ["posts"]
   toc = false # disable table of contents by default
   tocOpen = false
@@ -65,7 +65,7 @@ enableRobotsTXT = true
 # Author information
 [params.author]
   # avatar = "avatar.jpg" # Add your avatar to assets/ folder if you want
-  intro = "Cloud Mastery Journey"
+  intro = "Aurélien's blog"
   name = "Aurélien BOUMANNE"
   description = "Documenting my journey through AWS certifications, Kubernetes, and infrastructure automation."
 
