@@ -1,4 +1,4 @@
-# Cloud Mastery Journey
+# Aurélien's blog
 
 A technical blog documenting my progression through cloud computing certifications, infrastructure automation, and DevOps practices.
 
