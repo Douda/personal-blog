@@ -5,8 +5,4 @@ title = 'Contact'
 description = 'Contact Douda Boumanne'
 +++
 
-# Contact
-
-[Your contact information will go here]
-
-This is a placeholder. Add your email, social media links, and other contact details.
+Connect with me on [LinkedIn](https://www.linkedin.com/in/aurelien-boumanne/).
