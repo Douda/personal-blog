@@ -9,23 +9,26 @@ description = "Starting my cloud mastery journey with AWS and Terraform certific
 
 ## Why this blog exists
 
-I start with reading and watching to understand the concepts. But I learn for real by implementing, breaking, and fixing. This blog documents that process in public—sharing real projects as I study, not just notes after the fact. My goal: demonstrate I can build cloud solutions, not just pass exams.
+### Quick intro
 
-For 2026, I'm sharing actual implementations while I learn. Real infrastructure. Real problems solved. Real mistakes documented.
+I wanted to learn more about the cloud in general. 2026 will be the year for me on this topic. The past few months I started a couple of certs to understand the basics of k8s & AWS 
 
-## Current Status
-
-Following the [Cloud Mastery Bootcamp](https://digitalcloud.training/cloud-mastery-bootcamp/) DevOps Engineer pathway.
-
-**Earned:**
 - Kubernetes and Cloud Native Associate (KCNA)
 - AWS Certified Cloud Practitioner
 
-**In Progress:**
-- AWS Solutions Architect Associate
+Gives me enough theory to get started, now slowly ramping up with the next cert 
 
-## What's Coming
+- AWS Solutions Architect Associate (SAA)
 
-Hands-on projects. Architecture decisions. Honest post-mortems.
+### Goals
 
-Theory gets you started. Building (especially breaking and fixing) makes it stick.
+The biggest issues I see is that many people take basically the same path, but stop at certifications. I want to go the extra mile > sharing actual implementations & real world projects while I learn. If I don't do it, I'll forget it all in a year and wont be able to show any of those skills.
+
+
+If you're interested, I started the [Cloud Mastery Bootcamp](https://digitalcloud.training/cloud-mastery-bootcamp/) DevOps Engineer pathway to get to know more about the cloud
+
+
+### What's Coming
+
+Let's play around with some projects to apply what I learn on the SAA cert ! 
+Hands-on projects. I'm already having fun with the AWS console & CloudShell for the theory, let's practice on real world stuff now
