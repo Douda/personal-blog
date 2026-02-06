@@ -5,4 +5,4 @@ title = 'About'
 description = 'About Aurélien Boumanne'
 +++
 
-14 years in IT security, started from support roles in 2010. Now expanding into cloud engineering. Building real solutions, not just theory. This blog documents hands-on projects and lessons learned.
+I'm Aurélien. Spent the last 14 years in IT security, started from the help desk in 2010. Now I'm building cloud solutions and sharing the journey here.
